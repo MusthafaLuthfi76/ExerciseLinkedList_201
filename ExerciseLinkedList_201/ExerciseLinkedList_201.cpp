@@ -25,7 +25,7 @@ public:
 void CircularLinkedList::addNode() { //write your answer here
 
 	Node* newNode = new Node();                 //step a.1 & c.1
-	cout << "\nMasukkan NIM : ";
+	cout << "\nMasukkan rollNumber : ";
 	cin >> newNode->rollNumber;                 //step a.2 & c.2
 	cout << "Masukkan Nama : ";
 	cin >> newNode->name;                       //step a.2 & c.2
@@ -53,7 +53,7 @@ void CircularLinkedList::addNode() { //write your answer here
 		}
 		case 'b': {
 			int rollno;
-			cout << "Enter roll number after which the new record should be inserted: ";
+			cout << "Masukkan roll number setelah angka berapa mau dimasukkan : ";
 			cin >> rollno;
 
 			Node* musthafa = LAST->next;		//step b.1
