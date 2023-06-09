@@ -32,8 +32,8 @@ void CircularLinkedList::addNode() { //write your answer here
 
 	if (LAST == NULL) { // List is empty
 
-		newNode->next = newNode; // Make the new node point to itself
-		LAST = newNode; // Set the LAST pointer to the new node
+		newNode->next = newNode; 
+		LAST = newNode; 
 
 	}
 
